@@ -67,4 +67,19 @@ Learn the fundamentals of MongoDB, including installation, creating collections,
    - A screenshot of your MongoDB Compass or Atlas showing your collections and sample data
 4. Commit and push your changes to GitHub
 5. Your submission will be automatically graded based on the criteria in the autograding configuration
-6. The instructor will review your submission after the autograding is complete 
+6. The instructor will review your submission after the autograding is complete
+
+
+## Setup
+1. Install MongoDB or use Atlas
+2. Run `npm install mongodb`
+3. Insert data: `node insert_books.js`
+4. Use `queries.js` to test CRUD, advanced queries, and aggregation
+
+## Contents
+- `insert_books.js`: Populates `books` collection
+- `queries.js`: Contains all MongoDB queries
+- `screenshot.jpeg`: Visual proof of working database
+
+## Screenshot
+![image](./screenshot.jpeg)
